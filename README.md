@@ -2,6 +2,8 @@
 
 <img src="http://d24wuq6o951i2g.cloudfront.net/img/events/id/273/2738374/assets/d13.logo.png" width="150">
 
+<img src="./assets/ui-demo.png">
+
 ## Shades
 
 Welcome to shades, Netflix Partner Platform's entity relationship service.
