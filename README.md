@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+![Netflix logo](http://d24wuq6o951i2g.cloudfront.net/img/events/id/273/2738374/assets/d13.logo.png)
 
-You can use the [editor on GitHub](https://github.com/shades-io/shades-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Shades
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Welcome to shades, Netflix Partner Platform's entity relationship service.
 
-### Markdown
+Modern web applications are composed of micro-services with different data sources. One problem with this architecture is mapping the relationships between the various entities that are modeled in those data sources. For relationships that span multiple levels, or for bi-directional traversal, this problem becomes even more difficult.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Common solutions, such as Spark, are big data tools that are language specific or rely only on a tabular view.
+ 
+Our proposed solution: Entity Relationship Manager
 
-```markdown
-Syntax highlighted code block
+A distributed, modular middleware service that can pull data from a variety of sources, transform it into any kind of projection, and handle queries on those projections. This single service can be used to generate hierarchical relationships (trees), graphs, table views, and so on.
 
-# Header 1
-## Header 2
-### Header 3
+We will be working on the core service, building pluggable modules to extend support for new data sources and pipelines, and adding new projections.
 
-- Bulleted
-- List
+### Repositories
 
-1. Numbered
-2. List
+* [shades](https://github.com/shades-io/shades) - Worker for Shades
+* [shades-worker](https://github.com/shades-io/shades-worker) - Framework for entity relationship management using CQRS/Event Sourcing
 
-**Bold** and _Italic_ and `Code` text
+### The team
 
-[Link](url) and ![Image](src)
-```
+The Partner Platform Apps team is part of the Partner Device Ecosystem organization. The organization works with partners like Sony, LG, Broadcom, Comcast, and many others to implement the Netflix SDK onto their devices. The Partner Platform Apps team builds applications and services that are used by external partners and internal teams to scale these activities.
+ 
+We make it possible to implement Netflix on more devices every year.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Working at Netflix
 
-### Jekyll Themes
+Interested In Learning More About Netflix?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shades-io/shades-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+We have a unique engineering culture here at Netflix. 
+ 
+We keep true to our values of Freedom and Responsibility by offering high level of autonomy and owernship while limiting process. [Find out more](https://www.slideshare.net/reed2001/culture-1798664).
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Come work with us](https://jobs.netflix.com/jobs/861285)
