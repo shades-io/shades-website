@@ -2,9 +2,9 @@
 
 <img src="http://d24wuq6o951i2g.cloudfront.net/img/events/id/273/2738374/assets/d13.logo.png" width="150">
 
-<img src="./assets/ui-demo.png">
-
 ## Shades
+
+<img src="./assets/ui-demo.png">
 
 Welcome to shades, Netflix Partner Platform's entity relationship service.
 
@@ -20,8 +20,13 @@ We will be working on the core service, building pluggable modules to extend sup
 
 ### Repositories
 
-* [shades](https://github.com/shades-io/shades) - Worker for Shades
-* [shades-worker](https://github.com/shades-io/shades-worker) - Framework for entity relationship management using CQRS/Event Sourcing
+* [shades](https://github.com/shades-io/shades) - Framework for entity relationship management using CQRS/Event Sourcing
+* [shades-ui](https://github.com/shades-io/shades-ui) - UI for Netflix Partner Platform's entity relationship service
+* [shades-broker-mock](https://github.com/shades-io/shades-broker-mock) - Mock Shades broker
+* [shades-projection-mock](https://github.com/shades-io/shades-projection-mock)
+* [shades-worker](https://github.com/shades-io/shades-worker) - Worker for Shades
+* [shades-store-redis](https://github.com/shades-io/shades-store-redis)
+* [shades-module-loader](https://github.com/shades-io/shades-module-loader) - Loads configured modules
 
 ### The team
 
